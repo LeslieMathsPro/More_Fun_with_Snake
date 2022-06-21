@@ -12,8 +12,9 @@ In this project, you can build your own C++ application or extend this Snake gam
 
 1. Fix a little logic bug of the example, when i was playing the example, i found the snack could turn opposite if the player 
    turn left left or right right very quickly, which could make the snack too flexible.
+2. dsaf
 
-   <img scr="logic_bug.gif"/>
+<img scr="logic_bug.gif"/>
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
