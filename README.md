@@ -8,6 +8,10 @@ The Capstone Project gives you a chance to integrate what you've learned through
 
 In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
 
+# My work for the Capstone project
+
+1. Fix a little logic bug of the example, when i was playing the example, i found the snack could turn opposite if the player 
+   turn left left or right right very quickly, which could make the snack too flexible.
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)

@@ -1,0 +1,3 @@
+/Users/xuliwei/Desktop/Snake/More_Fun_with_Snake/build/CMakeFiles/SnakeGame.dir
+/Users/xuliwei/Desktop/Snake/More_Fun_with_Snake/build/CMakeFiles/edit_cache.dir
+/Users/xuliwei/Desktop/Snake/More_Fun_with_Snake/build/CMakeFiles/rebuild_cache.dir
