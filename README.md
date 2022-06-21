@@ -10,7 +10,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 
 # My work for the Capstone project
 
-1. Fix a little logic bug of the example, when i was playing the example, i found the little snack could turn opposite if the player 
+1. Fix a petit logic bug of the example, when i was playing the example, i found the little snack could turn opposite if the player 
    turn left left or right right very quickly, which could make the snack too flexible.
    
 <<img src="logic_bug.gif"/>
