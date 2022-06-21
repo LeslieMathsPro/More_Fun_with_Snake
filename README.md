@@ -13,7 +13,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 1. Fix a petit logic bug of the example, when i was playing the example, i found the little snack could turn opposite if the player 
    turn left left or right right very quickly, which could make the snack too flexible.
    
-<<img src="logic_bug.gif"/>
+<img src="logic_bug.gif"/>
 
 2. Add a barrier element, if the snack strike the barrier, the game will over. Here i implemented the knowledge of Object-Oriented Programming.
 I initial the location of barrier by two constraints: not a part of the snack and not the same location of food. Besides, i pass by reference.
