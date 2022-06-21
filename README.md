@@ -15,6 +15,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 2. dsaf
 
 <img scr="logic_bug.gif"/>
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
