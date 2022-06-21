@@ -16,11 +16,46 @@ In this project, you can build your own C++ application or extend this Snake gam
 <img src="logic_bug.gif"/>
 
 2. Add a barrier element, if the snack strike the barrier, the game will over. Here i implemented the knowledge of Object-Oriented Programming.
-I initial the location of barrier by two constraints: not a part of the snack and not the same location of food. Besides, i pass barrier by reference.
+I initial the location of barrier by two constraints: not a part of the snack and not the same location of food.
 
-3.
+<img src="snake_stone.gif"/>
 
-##
+3. 
+
+## Rubric Points
+README - Here
+Compiling and Testing - The program runs well, you could see the live gif.
+
+Loop, functions, I/O
+* The project demonstrates an understanding of C++ functions and control structures. - game.cpp line 24-51, running the game by loop
+* The project reads data from a file and process the data, or the program writes data to a file. - main.cpp line 17-20, output the score and size at the end of game.
+* The project accepts user input and processes the input. - controller.cpp line 12-37, change the direction of snake by input. Or accelerate it by space (to be finish)
+
+Object Oriented Programming
+* The project uses Object Oriented Programming techniques. - snake.h line 7-38, game.h line 7-33
+* Classes use appropriate access specifiers for class members. - snake.h keep the public interface and the private element well
+* Class constructors utilize member initialization lists. - game.h line 28, initial the score with 0
+* Classes abstract implementation details from their interfaces. - game.h line 15-16, we implement the two interface in game.cpp line 108-109
+* Classes encapsulate behavior. - snake.h line 36-37, we encapsulate the grid_width and grid_height, those variable should not be changed by users
+* Classes follow an appropriate inheritance hierarchy.
+* Overloaded functions allow the same function to operate on different parameters. 
+* Derived class functions override virtual base class functions.
+* Templates generalize functions in the project.
+
+Memory Management
+* The project makes use of references in function declarations. - renderer.cpp line 41 pass barrier by reference
+* The project uses destructors appropriately. 
+* The project uses scope / Resource Acquisition Is Initialization (RAII) where appropriate.
+* The project follows the Rule of 5.
+* The project uses move semantics to move data, instead of copying it, where possible.
+* The project uses smart pointers instead of raw pointers.
+
+Concurrency
+* The project uses multithreading.
+* A promise and future is used in the project.
+* A mutex or lock is used in the project.
+* A condition variable is used in the project.
+
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
