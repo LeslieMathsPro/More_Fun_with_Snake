@@ -14,7 +14,7 @@ In this project, you can build your own C++ application or extend this Snake gam
    turn left left or right right very quickly, which could make the snack too flexible.
 2. dsaf
 
-<img scr="logic_bug.gif"/>
+<<img src="snake_game.gif"/>
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
