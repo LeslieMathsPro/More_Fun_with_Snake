@@ -53,8 +53,8 @@ void Renderer::Render(Snake const snake, SDL_Point const &food, SDL_Point const 
   block.y = food.y * block.h;
   SDL_RenderFillRect(sdl_renderer, &block);
 
-  // Render barrier
-  SDL_SetRenderDrawColor(sdl_renderer,0x8A, 0x45, 0x13, 0xFF); // Brown
+  // Render obstacle
+  SDL_SetRenderDrawColor(sdl_renderer,0xB0, 0xB0, 0xB0, 0xFF); // Brown
   block.x = barrier.x * block.w;
   block.y = barrier.y * block.h;
   SDL_RenderFillRect(sdl_renderer, &block);

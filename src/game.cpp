@@ -19,7 +19,7 @@ void Game::Run(Controller const &controller, Renderer &renderer,
   int frame_count = 0;
   bool running = true;
 
-  //PlaceBarrier();
+  PlaceBarrier();
 
   while (running) {
     frame_start = SDL_GetTicks();
@@ -98,8 +98,6 @@ void Game::Update() {
     snake.GrowBody();
     snake.speed += 0.02;
   }
-
-  //PlaceBarrier();
 
   // Check if the snake strike the barrier
   if (barrier.x == new_x && barrier.y == new_y) {
